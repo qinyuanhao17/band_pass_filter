@@ -1,12 +1,12 @@
 import sys
 import time
 import PyQt5
-import pyvisa
+# import pyvisa
 import serial
 import qdarkstyle
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QApplication, QWidget, QMessageBox
-from . import BandPassFilter
+import BandPassFilter
 import serial.tools.list_ports as lp
 
 #rm = pyvisa.ResourceManager()
